@@ -22,7 +22,7 @@ class NewsActivity : AppCompatActivity() {
 
     private fun fetchJson() {
 
-        val yourApiKey = "112312e2a7b84e22a5ec43655fb52aa9"
+        val yourApiKey = ""
         //get your api key from newsapi.org
         val url = "https://newsapi.org/v1/articles?source=IGN&sortBy=top&apiKey="+ yourApiKey
 
